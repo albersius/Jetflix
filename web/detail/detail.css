@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-fredoka-one: "Fredoka One";
+  --font-barlow: Barlow;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-45xl: 64px;
+  --font-size-xl: 20px;
+  --font-size-mid: 17px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-77xl: 96px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-200: #161616;
+  --color-gray-300: #141414;
+  --color-gray-100: rgba(20, 20, 20, 0);
+  --color-gray: rgba(0, 0, 0, 0.5);
+  --color-red: #ff0000;
+  --color-gainsboro: #d9d9d9;
+  --color-darkgray: #999;
+  --color-firebrick: #b50000;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-mini: 15px;
+  --br-3xs: 10px;
+}
+
+
+
+.image-40-icon {
+  position: relative;
+  top: 82px;
+  width: 100%;
+  height: 1180px;
+  object-fit: cover;
+}
+.detail-page-child {
+  position: relative;
+  bottom: -4rem;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 452px;
+}
+.detail-page-item {
+  top: 1472px;
+  background-color: var(--color-gray);
+  height: 229px;
+}
+.jetflix {
+  position: absolute;
+  top: 16px;
+  left: 98px;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+  font-family: var(--font-barlow);
+  color: var(--color-red);
+}
+.movies,
+.news-popular {
+  position: absolute;
+  top: 32px;
+  left: 476px;
+}
+.news-popular {
+  top: 31px;
+  left: 619px;
+}
+.home,
+.kids-movie {
+  position: absolute;
+  top: 32px;
+  left: 346px;
+}
+.kids-movie {
+  left: 846px;
+}
+.nav-bar,
+.profile {
+  position: absolute;
+  top: 31px;
+  left: 1029px;
+}
+.nav-bar {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 100% ;
+  height: 82px;
+}
+.episodes,
+.episodes-1,
+.eunsoo-is-asked {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.episodes {
+  height: 6.38%;
+  width: 29.31%;
+  top: 2.28%;
+  left: 4.38%;
+  font-size: var(--font-size-21xl);
+}
+.episodes-1,
+.eunsoo-is-asked {
+  top: 0;
+  left: 244px;
+  width: 564px;
+  height: 51px;
+}
+.eunsoo-is-asked {
+  top: 51px;
+  text-align: center;
+  justify-content: center;
+  width: 866px;
+  height: 72px;
+}
+.image-41,
+.image-42,
+.image-43,
+.image-44 {
+  position: absolute;
+  height: 15.6%;
+  width: 13rem;
+  top: 11.73%;
+  right: 81.18%;
+  bottom: 72.67%;
+  left: 5.07%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-42,
+.image-43,
+.image-44 {
+  top: 33.94%;
+  bottom: 50.46%;
+}
+.image-43,
+.image-44 {
+  top: 56.15%;
+  bottom: 28.25%;
+}
+.image-44 {
+  top: 78.36%;
+  bottom: 6.04%;
+  
+}
+
+.image-41 {
+  background-image: url(../public/image-41@3x.png);
+}
+.image-42 {
+  background-image: url(../public/soundtrack-1-episode-2-3-1536x744.jpg);
+}
+.image-43 {
+  background-image: url(../public/soundtrack-1-4-1536x765.jpg);
+}
+.image-44 {
+  background-image: url(../public/soundtrack-1-episode-4-7-1536x735.jpg);
+}
+.component-12 {
+  position: absolute;
+  height: 51.62%;
+  width: 100%;
+  top: 32.33%;
+  right: 0;
+  bottom: 16.05%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.component-1-child,
+.component-1-inner,
+.component-1-item,
+.group-icon {
+  position: absolute;
+  height: 26.15%;
+  width: 14.88%;
+  top: 0;
+  right: 0;
+  bottom: 73.85%;
+  left: 85.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-1-inner,
+.component-1-item,
+.group-icon {
+  right: 55.92%;
+  left: 29.2%;
+}
+.component-1-inner,
+.group-icon {
+  right: 27.92%;
+  left: 57.19%;
+}
+.group-icon {
+  right: 85.12%;
+  left: 0;
+}
+.about,
+.info,
+.privacy-policy,
+.support,
+.terms-of-use {
+  position: absolute;
+  height: 13.73%;
+  width: 43.15%;
+  top: 86.27%;
+  left: 32.62%;
+  display: inline-block;
+}
+.about,
+.info,
+.support,
+.terms-of-use {
+  width: 39.81%;
+  top: 62.11%;
+  left: 13.36%;
+}
+.about,
+.info,
+.support {
+  width: 19.34%;
+  top: 60.77%;
+  left: 60.58%;
+}
+.info,
+.support {
+  width: 24.55%;
+  top: 41.78%;
+}
+.info {
+  width: 11.9%;
+  left: 14.91%;
+}
+.component-1 {
+  position: absolute;
+  top: 1495px;
+  left: 566px;
+  width: 307.72px;
+  height: 184.3px;
+  font-size: var(--font-size-mid);
+}
+
+.han-sun-woo-is-container {
+  position: relative;
+  height: 200px;
+  width: 90%;
+  top: 10rem;
+  left: 4rem;
+  font-size: var(--font-size-xl);
+  display: block;
+  align-items: left;
+  text-align: left;
+}
+.soundtrack-1 {
+  top: -11rem;
+  position: relative;
+  left: 4rem;
+  font-size: var(--font-size-45xl);
+  display: block;
+  text-align: left;
+  text-align: left;
+}
+.download,
+.download-wrapper,
+.play-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download {
+  position: relative;
+  width: 103px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.download-wrapper,
+.play-wrapper {
+  position: absolute;
+  height: 7.46%;
+  width: 7.22%;
+  top: 86.35%;
+  right: 77.78%;
+  bottom: 6.18%;
+  left: 15%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--color-black);
+}
+.play-wrapper {
+  right: 87.71%;
+  left: 5.07%;
+}
+.component-11 {
+  position: absolute;
+  height: 27.57%;
+  width: 100%;
+  top: 4.76%;
+  right: 0;
+  bottom: 67.67%;
+  left: 0;
+  background-color: transparent;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+}
+.detail-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1701px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-fredoka-one);
+}
+
+.movies {
+  color: white;
+  text-decoration: none;
+}
+.news-popular {
+  color: white;
+  text-decoration: none;
+}
+.home {
+  color: white;
+  text-decoration: none;
+}

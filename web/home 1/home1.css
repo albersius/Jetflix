@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  line-height: 50%;
+}
+
+:root {
+  /* fonts */
+  --font-fredoka-one: "Fredoka One";
+  --font-inter: Inter;
+  --font-barlow: Barlow;
+
+  /* font sizes */
+  --font-size-mid: 17px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-firebrick: #b50000;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.jetflix{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 96px;
+  font-weight: 800;
+  font-family: var(--font-barlow);
+  color: red;
+  height: 400px;
+}
+
+.login1 {
+  height: 57px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  right: 42.85%;
+  bottom: 43.16%;
+  left: 42.99%;
+  flex-direction: column;
+  border-radius: var(--br-xl);
+  background-color: red;
+  width: 204px;
+  height: 70px;
+  text-decoration: none;
+  color: white;
+}
+
+.login2 {
+  height: 57px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  right: 42.85%;
+  bottom: 43.16%;
+  left: 42.99%;
+  flex-direction: column;
+  border-radius: var(--br-xl);
+  background-color: red;
+  width: 204px;
+  height: 70px;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  gap: 20px;
+}
+.home-page-inner {
+  position: absolute;
+  height: 6.84%;
+  width: 14.17%;
+  top: 59.18%;
+  right: 42.99%;
+  bottom: 33.98%;
+  left: 42.85%;
+}
+.home-page-child {
+  position: absolute;
+  height: 22.36%;
+  top: 77.64%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.component-2{
+  display: flex;
+  gap: 25px;
+}
+
+
+.component-3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  height: 100px;
+}
+
+.component-1 {
+  position: absolute;
+  top: 818px;
+  width: 100%;
+  height: 184.3px;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-fredoka-one);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.home-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  background-image: url(../public/home-page@3x.png);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fredoka One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <img src="../public/otto-1@2x.png" class="background" alt="">
+    
+    <div class="jetflix">JetFlix</div>
+      
+    <div class="content-container">
+      <div class="form-container">
+        <form class="signup-form" onsubmit="return validateForm(this)">
+          <h2 class="subtitle red">Sign Up</h2>
+          <h2 class="subtitle">Create an Account</h2>
+          <input type="text" name="username" id="name" class="form-input" placeholder="Username">
+          <input type="password" name="password" id="psw" class="form-input" placeholder="Password">
+          <input type="password" name="confirmpassword" class="form-input" placeholder="Confirm Password">
+          <label for="bod"></label>
+          <input type="date" id="batas" name="bod" class="form-input">
+          <div class="radio-container">
+            <div>
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" value="Male">
+            </div>
+            <div>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="Female">
+            </div>
+          </div>
+          <label for="tos" class="label-tos">I agree to terms and conditions</label>
+          <input type="checkbox" name="tos" id="tos">
+        <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <div class="component-1">
+      <div class="component-2">
+        <img class="component-1-child" alt="" src="../public/group-24.svg" />
+
+        <img class="component-1-item" alt="" src="../public/group-23.svg" />
+
+        <img class="component-1-inner" alt="" src="../public/group-25.svg" />
+
+        <img class="group-icon" alt="" src="../public/group-16.svg" />
+      </div>
+        <div class="component-3">
+          <div class="info">Info<br><br>Terms of Use</div>
+          <div class="about">Support<br><br>SupportAbout</div>
+        </div>
+      <div class="privacy-policy">Privacy Policy</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
